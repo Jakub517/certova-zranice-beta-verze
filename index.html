@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Čertova žranice</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="prihlasovani">
+            <label for="heslo">Heslo: </label><input id="heslo" type="password" onkeyup="zkontrolujHeslo()">
+           <br>
+           <br>
+           <div>
+            <b style="color: rgb(184, 0, 0);"><i>Pokud chceš změnit barvu udělejto hned potom nebudeš moc.</i></b>
+           </div>
+            <label for="pozadi">Pozadí: </label>
+            <select id="pozadi" onchange="zmenPozadi()">
+                <option value="#ffffff">Bílá(výchozí)</option>
+                <option value="#f5a038">Oranžová</option>
+                <option value="#302c1e">Šedá (šetří oči)</option>
+                <option value="#4f5754">šedá</option>
+                <option value="#574e3b">Světle šedá</option>
+                <option value="#9e6f00">Zlatá (šetří oči)</option>
+                <option value="#ffae00">Žlutá</option>
+                <option value="#22ff00">Zelená</option>
+                <option value="#41ba00">Tmavě zelená</option>
+                <option value="#00ffe5">Modrá</option>
+                <option value="#008ead">Tmavě modrá</option>
+                <option value="#ff0000">Červená</option>
+                <option value="#ff96ef">Růžová</option>
+                <option value="#ffa1a1">Světle růžová</option>
+                <option value="#c800ff">Fialová</option>
+                <option value="#e82372">Fialově růžově červená</option>
+                <option value="#9c5b16">Hnědá</option>
+                
+               
+                
+            </select>
+        </div>
+        <div id="zabezpeceno" style="display: none;">
+            <h1>Čertova žranice</h1>
+            <label for="jidlo">Co žere Čert?</label><input id="jidlo" type="text">
+            <input type="button" id="tlacitkoZer" value="žer!" onclick="nastavJidlo()">
+            <input type="button" value="Jak je Čertovi?" onclick="zkontrolujTeplotu()">
+            <hr>
+            <div>
+                <span id="informace"></span>
+                <span id="historie"></span>
+                <span id="varovani"></span>
+            </div>
+            <div>
+                <span id="teplota"></span>
+            </div>
+            <div>
+                
+                <b style="color: blue;"><h1>Čert medvěd had teď!</h1></b>
+                <b style="color: green;"><i>Čert žere medvěda.Medvěd žere hada.Had žere čerta
+                vyber:</i></b>
+                <div>
+                    
+                    <h2>Hráč 1</h2>
+                    <button id="1a" onclick="hraj(1, 'Čert')">Čert</button>
+                    <button id="1b" onclick="hraj(1, 'Medvěd')">Medvěd</button>
+                    <button id="1c" onclick="hraj(1, 'Had')">Had</button>
+                </div>
+                <div>
+                    <h2>Hráč 2</h2>
+                    <button id="2a" onclick="hraj(2, 'Čert')">Čert</button>
+                    <button id="2b" onclick="hraj(2, 'Medvěd')">Medvěd</button>
+                    <button id="2c" onclick="hraj(2, 'Had')">Had</button>
+                </div>
+                <div id="vysledek"></div>
+            </div>
+        </div>
+        
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="paticka">
+            verze: 3.5.3
+        </div>
+
+
+
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
