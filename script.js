@@ -126,11 +126,12 @@ function zkontrolujTeplotu() {
     var certuvPocit = "je Čertovi akorát";
     if (teplotaVBorsove>30){
         certuvPocit = "se Čert usmažil"
+    } else if (teplotaVBorsove<5){
+        certuvPocit = "Z Čerta je rampouch"
     } else if(teplotaVBorsove<12){
         certuvPocit = "je Čertovi zima";
     } else if (teplotaVBorsove>18){
         certuvPocit = "je Čertovi teplo";
-        
     }
     document.getElementById("teplota").innerHTML = "V Boršově je " + parseInt(teplotaVBorsove) + " stupňů, takže " + certuvPocit + ". ";
     })
