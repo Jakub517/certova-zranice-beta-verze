@@ -16,7 +16,19 @@ function zkontrolujHeslo() {
 
 function zmenPozadi() {
     var pozadi = document.getElementById("pozadi").value;
-    document.body.style.backgroundColor = pozadi;
+    if(pozadi == "auto"){
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundImage = "url(auto.jpg)";
+    }else if(pozadi == "cert"){
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundImage = "url(auto.jpg)";
+    }else{
+        document.body.style.backgroundImage = "none";
+        document.body.style.backgroundColor = pozadi;
+    }
+   
 }
 
 function nastavJidlo() {
