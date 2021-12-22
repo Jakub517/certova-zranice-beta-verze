@@ -34,8 +34,8 @@ function zmenPozadi() {
 function nastavJidlo() {
     if(document.getElementById("jidlo").value != "") {
         switch(document.getElementById("jidlo").value.toLowerCase()){
-            case "medříka":
-                alert("Čertovi nechutná Medřík!");
+            case "maso":
+                alert("Jaký maso?");
                 break;
             case "med":
                 alert("Čertovi nechutná med ten je pro medvědy a medvěd pro Čerta!");
@@ -46,22 +46,12 @@ function nastavJidlo() {
             case "čerta":
                 alert("Čert nežere čerty to by byl kanibal a to není!");
                 break;
-                case "ovoce":
-                    alert("Čert sežral ovoce ale bylo by lepší maso.");
-                    break;
-                    case "zeleninu":
-                        alert("Čert sežral zeleninu ale bylo by lepší maso.");
-                    break;
-                    case "licenci":
-                        alert("Licenci vlastní společnost Jakub. Studio Čert. Desing by: Jakub");
-                    break;
-                    case "licence":
-                        alert("Licenci vlastní společnost Jakub. Studio Čert. Desing by: Jakub");
-                        break;
-                        break;
-                    case "hovno":
-                        alert("To si přehnal! jseš normální?");
-                        break;
+            case "ovoce":
+                alert("Čert sežral ovoce ale bylo by lepší maso.");
+                break;
+            case "zeleninu":
+                alert("Čert sežral zeleninu ale bylo by lepší maso.");
+                break;
 
             default:
                 if(praveZraneJidlo != "") {
@@ -79,16 +69,16 @@ function nastavJidlo() {
                 document.getElementById("informace").innerHTML = "Čert žere " + praveZraneJidlo + ". ";
 
                 switch(praveZraneJidlo.toLowerCase()){
-                    case "asistentku":
+                    case "auto":
                         certeZvracej(10000);
                         break;
-                    case "halinu":
+                    case "kolo":
                         certeZvracej(15000);
                         break;
-                    case "alici":
+                    case "učebnici":
                         certeZvracej(20000);
                         break;
-                        case "olinu":
+                        case "mobil":
                         certeZvracej(13000);
                         break;
                         case "párky":
