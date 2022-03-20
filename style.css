@@ -6,3 +6,126 @@
     color: rgb(0, 0, 0);
     text-align: center;
   }
+
+      
+  .button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 9px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.5s;
+cursor: pointer;
+}
+
+.button1 {background-color: #008CBA;} /* Blue */
+.button1 {font-size: 13px;}
+.button1 {border-radius: 8px;}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button2 {background-color: #008CBA;} /* Blue */
+.button2 {font-size: 13px;}
+.button2 {border-radius: 8px;}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button3 {background-color: #008CBA;} /* Blue */
+.button3 {font-size: 13px;}
+.button3 {border-radius: 8px;}
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button4 {background-color: #42df1a;} /* Blue */
+.button4 {font-size: 13px;}
+.button4 {border-radius: 8px;}
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #42df1a;
+}
+
+.button4:hover {
+  background-color: #42df1a;
+  color: white;
+}
+.button5 {background-color: #42df1a;} /* Blue */
+.button5 {font-size: 13px;}
+.button5 {border-radius: 8px;}
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #42df1a;
+}
+
+.button5:hover {
+  background-color: #42df1a;
+  color: white;
+}
+.button6 {background-color: #42df1a;} /* Blue */
+.button6 {font-size: 13px;}
+.button6 {border-radius: 8px;}
+.button6 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #42df1a;
+}
+
+.button6:hover {
+  background-color: #42df1a;
+  color: white;
+}
+.button7 {background-color: #42df1a;} /* Blue */
+.button7 {font-size: 13px;}
+.button7 {border-radius: 8px;}
+.button7 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #00ddad;
+}
+
+.button7:hover {
+  background-color: #00ddad;
+  color: white;
+}
+.button8 {background-color: #42df1a;} /* Blue */
+.button8 {font-size: 13px;}
+.button8 {border-radius: 8px;}
+.button8 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f7ac0a;
+}
+
+.button8:hover {
+  background-color: #f7ac0a;
+  color: white;
+}
+
+
