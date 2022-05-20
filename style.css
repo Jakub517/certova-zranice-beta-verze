@@ -61,7 +61,9 @@ cursor: pointer;
   background-color: #008CBA;
   color: white;
 }
-
+.buttonA:disabled{
+  background-color: red;
+}
 .button4 {background-color: #42df1a;} /* Blue */
 .button4 {font-size: 13px;}
 .button4 {border-radius: 8px;}
@@ -101,6 +103,9 @@ cursor: pointer;
   background-color: #42df1a;
   color: white;
 }
+.buttonB:disabled{
+  background-color: red;
+}
 .button7 {background-color: #42df1a;} /* Blue */
 .button7 {font-size: 13px;}
 .button7 {border-radius: 8px;}
@@ -128,4 +133,6 @@ cursor: pointer;
   color: white;
 }
 
-
+#tlacitkoZer:disabled{
+  background-color: rgb(157, 103, 41);
+}
