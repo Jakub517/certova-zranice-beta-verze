@@ -114,7 +114,7 @@ function certeZvracej(pocetMilisekund) {
 function vyprazdniCerta() {
     praveZraneJidlo = "";
     jizSezranaJidla = [];
-    document.getElementById("informace").innerHTML = "Čert už má zase hlad. <br><img src='certhlad.jpg' width='240'>";
+    document.getElementById("informace").innerHTML = "Čert už má zase hlad. <br><img src='certhlad.jpg'alt='Čert má hlad' width='240'>";
     document.getElementById("historie").innerHTML = "";
     document.getElementById("varovani").innerHTML = "";
     document.getElementById("tlacitkoZer").disabled = false;
@@ -124,18 +124,18 @@ function zkontrolujTeplotu() {
     fetch('https://api.openweathermap.org/data/2.5/weather?units=metric&lat=49.7444444&lon=16.6238889&appid=e31d3441d060f09297aada23cb4dbd8d')
     .then(response => response.json())
     .then(json => {
-    var teplotaVBorsove = json.main.temp;
+    var aktualniTeplota = json.main.temp;
     var certuvPocit = "je Čertovi akorát";
-    if (teplotaVBorsove>30){
+    if (aktualniTeplota>30){
         certuvPocit = "se Čert usmažil"
-    } else if (teplotaVBorsove<5){
+    } else if (aktualniTeplota<5){
         certuvPocit = "Z Čerta je rampouch"
-    } else if(teplotaVBorsove<12){
+    } else if(aktualniTeplota<12){
         certuvPocit = "je Čertovi zima";
-    } else if (teplotaVBorsove>18){
+    } else if (aktualniTeplota>18){
         certuvPocit = "je Čertovi teplo";
     }
-    document.getElementById("teplota").innerHTML = "V Boršově je " + parseInt(teplotaVBorsove) + " stupňů, takže " + certuvPocit + ". ";
+    document.getElementById("teplota").innerHTML = "Aktuálně je " + parseInt(aktualniTeplota) + " stupňů, takže " + certuvPocit + ". ";
     })
 }
 

@@ -23,7 +23,7 @@ cursor: pointer;
 }
 
 input[type=text] {
-  width: 130px;
+  width: 200px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -150,6 +150,60 @@ input[type=text]:focus {
   color: white;
 }
 
+.button9 {background-color: #1a9adf;} /* Blue */
+.button9 {font-size: 13px;}
+.button9 {border-radius: 8px;}
+.button9 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1a9adf;
+}
+
+.button9:hover {
+  background-color: #1a9adf;
+  color: white;
+}
+
+.button10 {background-color: #1a9adf;} /* Blue */
+.button10 {font-size: 13px;}
+.button10 {border-radius: 8px;}
+.button10 {background-color: white; 
+  color: black; 
+  border: 2px solid #1a9adf;
+}
+
+.button10:hover {
+  background-color: #1a9adf;
+  color: white;
+}
+
+.button11 {background-color: #1a9adf;} /* Blue */
+.button11 {font-size: 13px;}
+.button11 {border-radius: 8px;}
+.button11 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1a9adf;
+}
+
+.button11:hover {
+  background-color: #1a9adf;
+  color: white;
+}
 #tlacitkoZer:disabled{
   background-color: rgb(157, 103, 41);
+}
+
+.button12 {background-color: #941adf;} /* Blue */
+.button12 {font-size: 13px;}
+.button12 {border-radius: 8px;}
+.button12 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #941adf;
+}
+
+.button12:hover {
+  background-color: #941adf;
+  color: white;
 }

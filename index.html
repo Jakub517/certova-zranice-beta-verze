@@ -13,6 +13,7 @@
         <div id="prihlasovani">
             <label for="heslo">Heslo: </label><input id="heslo" type="password" onkeyup="zkontrolujHeslo()">
            <br>
+           <a href="novinky.html"><button class="button button11">Novinky</a></button>
            <br>
            <div>
             <b style="color: rgb(83, 158, 255);"><i>Pokud chceš změnit barvu udělejto hned potom nebudeš moc.</i></b>
@@ -53,7 +54,7 @@
         </div>
         <div id="zabezpeceno" style="display: none;">
             <h1>Čertova žranice beta</h1>
-            <label for="jidlo"><b style="color: rgb(0, 255, 64);">Co žere Čert?</b><form> <input id="jidlo" type="text" name="hledat" placeholder="Hledat..."></form>
+            <label for="jidlo"><b style="color: rgb(0, 255, 64);">Co žere Čert?</b><form> <input id="jidlo" type="text" name="hledat" placeholder="Co Čert bude jíst?"></form>
             <input type="button" id="tlacitkoZer" class="button button8" value="žer!" onclick="nastavJidlo()">
             <input type="button"class="button button7" value="Jak je Čertovi?" onclick="zkontrolujTeplotu()">
             <hr>
@@ -65,60 +66,14 @@
             <div>
                 <span id="teplota"></span>
             </div>
-            <div>
-                
-                <b style="color: blue;"><h1>Čert medvěd had teď!</h1></b>
-                <b style="color: rgb(9, 230, 182);"><i>Čert žere medvěda. Medvěd žere hada. Had žere čerta
-                vyber:</i></b>
-                <div>
-                    
-                    <b style="color: rgb(83, 158, 255);"><h2>hráč 1</h2></b>
-                    <button class="button button1 buttonA" id="1a" onclick="hraj(1, 'Čert')">Čert</button>
-                    <button class="button button2 buttonA" id="1b" onclick="hraj(1, 'Medvěd')">Medvěd</button>
-                    <button class="button button3 buttonA" id="1c" onclick="hraj(1, 'Had')">Had</button>
-                </div>
-                <div>
-                    <b style="color: green;"><h2>Hráč 2</h2></b>
-                    <button class="button button4 buttonB" id="2a" onclick="hraj(2, 'Čert')">Čert</button>
-                    <button class="button button5 buttonB" id="2b" onclick="hraj(2, 'Medvěd')">Medvěd</button>
-                    <button class="button button6 buttonB" id="2c" onclick="hraj(2, 'Had')">Had</button>
-                </div>
-                <div id="vysledek"></div>
-            </div>
-        </div>
-        
-
-
-        
+            <p>Chceš si zahrát Hru Čert Medvěd Had? můžeš zde:</p>
+            <a href="hra.html"><button class="button button9">Hrát</a></button>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-        
           
-
         <div id="paticka">
-            verze: 4.5 beta <br>
+            verze: 5.0 beta <br>
         © 2022 - Čertova žranice - Beta
         </div>
 
