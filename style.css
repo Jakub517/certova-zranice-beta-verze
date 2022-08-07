@@ -39,6 +39,23 @@ input[type=text]:focus {
   width: 100%;
 }
 
+input[type=password] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('password.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+input[type=password]:focus {
+  width: 100%;
+}
+
 .button1 {background-color: #008CBA;} /* Blue */
 .button1 {font-size: 13px;}
 .button1 {border-radius: 8px;}
@@ -194,6 +211,7 @@ input[type=text]:focus {
   background-color: rgb(157, 103, 41);
 }
 
+
 .button12 {background-color: #941adf;} /* Blue */
 .button12 {font-size: 13px;}
 .button12 {border-radius: 8px;}
@@ -204,6 +222,20 @@ input[type=text]:focus {
 }
 
 .button12:hover {
+  background-color: #941adf;
+  color: white;
+}
+
+.button13 {background-color: #941adf;} /* Blue */
+.button13 {font-size: 13px;}
+.button13 {border-radius: 8px;}
+.button13 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #941adf;
+}
+
+.button13:hover {
   background-color: #941adf;
   color: white;
 }
